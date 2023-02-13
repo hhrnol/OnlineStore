@@ -1,0 +1,9 @@
+.sign-up-form {
+  font-family: Roboto, sans-serif;
+
+  &__buttons {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+  }
+}

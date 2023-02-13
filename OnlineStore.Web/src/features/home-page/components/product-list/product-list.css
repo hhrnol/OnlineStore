@@ -1,0 +1,8 @@
+.product-list {
+  margin-bottom: 2rem;
+}
+
+.product-list__col {
+  display: flex;
+  justify-content: center;
+}

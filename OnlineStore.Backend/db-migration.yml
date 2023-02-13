@@ -1,0 +1,12 @@
+trigger:
+  branches:
+    include:
+      - develop
+  paths:
+    include:
+    - MigrationRunner
+pool:
+  name: Azure Pipelines
+steps:
+- powershell: 'dotnet run --project $(System.DefaultWorkingDirectory)/MigrationRunner/MigrationRunner.csproj'
+  displayName: 'PowerShell Script'

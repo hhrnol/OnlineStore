@@ -1,0 +1,20 @@
+.shopping-cart__products {
+  width: 100%;
+  height: 60vh;
+  border: 1px solid black;
+  overflow-y: scroll;
+}
+
+.shopping-cart__footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem;
+}
+
+.shopping-cart__total-price {
+  font-size: 2rem;
+}
+
+.shopping-cart__checkout-button {
+  font-size: 1.5rem;
+}

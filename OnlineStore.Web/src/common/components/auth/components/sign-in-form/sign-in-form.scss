@@ -1,0 +1,16 @@
+.sign-in-form {
+  font-family: Roboto, sans-serif;
+
+  &__buttons {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+    margin-bottom: 1rem;
+  }
+
+  &__registration {
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+}

@@ -1,0 +1,14 @@
+.text-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-input__label {
+  font-size: 1rem;
+}
+
+.text-input__error-message {
+  position: absolute;
+  color: red;
+  font-size: 0.7rem;
+}
