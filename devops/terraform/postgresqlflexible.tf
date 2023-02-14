@@ -3,8 +3,8 @@ resource "azurerm_postgresql_flexible_server" "onlinestore" {
   resource_group_name    = azurerm_resource_group.onlinestore.name
   location               = azurerm_resource_group.onlinestore.location
   version                = "14"
-  administrator_login    = "pgadmdbpg01"
-  administrator_password = "Vostok17!@"
+  administrator_login    = "***********"
+  administrator_password = "***********"
   zone                   = "1"
 
   storage_mb = 32768
